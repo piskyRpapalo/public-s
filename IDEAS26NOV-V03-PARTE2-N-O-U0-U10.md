@@ -1,5 +1,7 @@
 # Ideas26nov v0.3 · Parte 2/3 · Observación, cuarentena y evolución por unidades
 
+> **Continuidad posterior · 26NOV2026:** Parte 3/3 ya recibida y contrastada contra contratos reales. La frase «Parte 3 pendiente» que sigue describe el corte de publicación original; no es el estado actual. La [Ronda 4 visual y de continuidad](PREPARACION-IDEAS26NOV-RONDA4-VISUAL-ECOSISTEMA-2026-11-26.md) está preparada, pero su fuente y los U11–U14 aún no se han recibido. N/O siguen PROPOSED.
+
 **Síntesis de investigación pública · 26 noviembre 2026.** Fuente: mensaje reenviado «Ideas26nov · PARTE 2 de 3», leído en la sesión de revisión del SWARM. Esta página **resume y adapta solo los contenidos presentes en esa Parte 2**; no es una transcripción del correo, ni una comisión, ni una autorización de despliegue. El documento conserva las categorías PROPOSED/KEEP/HOLD/DISCARD y distingue referencias externas de pruebas del SWARM. No revela correo, interlocutores, recibos privados, credenciales, dispositivos, sesiones o rutas de infraestructura.
 
 **Continuidad:** [Parte 1 / StrongDM + P1–P7](CONTINUIDAD-AGENTIC-SWARM-2026-11-26.md) · [MVP de los doce dominios](MVP-NATIVO-SKILLS-12-DOMINIOS-2026-11-26.md). **Parte 3/3:** `NO_DATA(source_not_available)`; en ella se anuncia el texto completo de CAMALEÓN v0.3 y los cambios detallados de prompts. No anticiparlos como contratos aprobados.
