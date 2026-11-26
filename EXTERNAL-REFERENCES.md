@@ -15,6 +15,25 @@ Enlaces a repositorios públicos conocidos. **NO_DATA(revisión comparativa actu
 | pytest | https://github.com/pytest-dev/pytest | Fixtures, parametrización, reproducción | No confundir tests de fixture con E2E |
 | W3C ARIA APG | https://github.com/w3c/aria-practices | Patrones accesibles de UI | Validación con lectores reales pendiente |
 
+## Referencias incorporadas en el estudio StrongDM + P1–P7 (26NOV2026)
+
+Son referencias **para contraste**, no productos usados ni dependencias recomendadas. Antes de reutilizar código o catálogos se deben comprobar commit/tag, LICENSE y dependencias concretas; las licencias no quedan certificadas por esta tabla.
+
+| Referencia | Enlace público | Pregunta de investigación | Decisión provisional |
+|---|---|---|---|
+| StrongDM Secure AI / MCP / Attribution | https://docs.strongdm.com/ai | Política por acción, iniciador, separación de credenciales y trazas; **broker propietario no auditable aquí** | KEEP patrón; HOLD producto |
+| Kubernetes API pagination | https://kubernetes.io/docs/reference/using-api/api-concepts/ | Cursor, consistencia y expiración de snapshot sin falsas completitudes | KEEP semántica |
+| Fencing / etcd | https://etcd.io/docs/ | Tokens monótonos comprobados en el **receptor del efecto** | KEEP patrón |
+| ai-agent-detect | https://github.com/agent-detect/ai-agent-detect | Evidencia de iniciador CLI/Web; riesgo de confiar en variables heredadas | KEEP concepto; HOLD copia de catálogo/licencia |
+| CodeCarbon | https://github.com/mlco2/codecarbon | Wh local medido frente a estimaciones TDP | KEEP metodología; HOLD integración |
+| EcoLogits | https://github.com/mlco2/ecologits | Energía remota estimada con incertidumbre explícita | KEEP metodología; HOLD integración |
+| Evaluación de jueces | https://arxiv.org/ | Normalización, evaluación ciega y sensibilidad al estilo; **NO_DATA(paper_exact_version_not_verified)** | KEEP pregunta y fixtures, no dependencia |
+| MDN ARIA Live Regions | https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Guides/Live_regions | Región persistente, severidad de anuncios y accesibilidad real | KEEP reglas |
+| LitmusChaos | https://github.com/litmuschaos/litmus | Inyección verificada, retorno al estado estacionario y rollback | KEEP método; HOLD operador |
+| Chaos Mesh | https://github.com/chaos-mesh/chaos-mesh | Blast radius, reversión y aborto en experimentos | KEEP método; HOLD operador |
+
+Más detalles y pruebas adversariales: [Continuidad agentic y seis carriles](CONTINUIDAD-AGENTIC-SWARM-2026-11-26.md).
+
 ## Plantilla de comparación
 
 **Problema:** ¿qué fallo concreto resuelve?  
