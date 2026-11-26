@@ -4,6 +4,8 @@
 
 **Síntesis de investigación pública · 26 noviembre 2026.** Fuente: mensaje reenviado «Ideas26nov · PARTE 2 de 3», leído en la sesión de revisión del SWARM. Esta página **resume y adapta solo los contenidos presentes en esa Parte 2**; no es una transcripción del correo, ni una comisión, ni una autorización de despliegue. El documento conserva las categorías PROPOSED/KEEP/HOLD/DISCARD y distingue referencias externas de pruebas del SWARM. No revela correo, interlocutores, recibos privados, credenciales, dispositivos, sesiones o rutas de infraestructura.
 
+> **Addendum de continuidad posterior a Parte 3:** [Parte 3/3 y Adenda A3 ya recibidas y contrastadas](IDEAS26NOV-V03-PARTE3-SINTESIS-PUBLICA-2026-11-26.md). La afirmación histórica `NO_DATA(source_not_available)` sobre Parte 3 en este documento **ya no es vigente**. La Adenda A3 recupera la sexta skill de O · ADUANA, `o.secret_detection`, con estado **PROPOSED**; no activa O ni un escáner. La [Ronda 4](PREPARACION-IDEAS26NOV-RONDA4-2026-11-26.md) todavía carece de fuente íntegra.
+
 **Continuidad:** [Parte 1 / StrongDM + P1–P7](CONTINUIDAD-AGENTIC-SWARM-2026-11-26.md) · [MVP de los doce dominios](MVP-NATIVO-SKILLS-12-DOMINIOS-2026-11-26.md). **Parte 3/3:** `NO_DATA(source_not_available)`; en ella se anuncia el texto completo de CAMALEÓN v0.3 y los cambios detallados de prompts. No anticiparlos como contratos aprobados.
 
 ## 0-bis · Reconciliación PRE-R6
