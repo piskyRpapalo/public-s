@@ -2,6 +2,12 @@
 
 **Documento divulgativo y saneado.** No es un espejo del repositorio privado, no contiene credenciales, direcciones de hosts, sesiones, instrucciones operativas ni autorizaciones. La eliminación posterior de un repositorio público no elimina copias, forks o cachés.
 
+## PRE-R6 · doce dominios en evolución documental
+
+**[MVP nativo y skills de los doce dominios](MVP-NATIVO-SKILLS-12-DOMINIOS-2026-11-26.md)** · Contratos de propuesta para A–K y NEXO-09, con reutilización de herramientas existentes, pruebas adversariales, dueño, métricas, evidencia y reversión. Es una **ronda de investigación paralela**, no doce CLI activos ni doce servicios desplegados.
+
+**Estado de gobierno actualizado:** `R5_WORK_CYCLE=CLOSED_ADMINISTRATIVELY_BY_SOVEREIGN`; `R5_TECHNICAL_ACCEPTANCE=HOLD` (fallos y datos pendientes siguen bloqueados); `R6=PLAN_ONLY`; `R7=NOT_ACTIVATED`. El cierre administrativo no rebaja seguridad ni constituye firma criptográfica. N/O y las novedades de Ideas26nov Partes 2 y 3 siguen `NO_DATA(source_not_available)`.
+
 ## Estudio prioritario: capacidades de agentes y mejora de MCP
 
 - **[Capacidades agentic, MCP y experimentos reproducibles · 26 nov 2026](AGENT-CAPABILITIES-MCP-2026-11-26.md)**. Documento principal para revisar qué aportan los roles, qué reutilizar del MCP existente, cómo evitar escritor obsoleto, inventarios falsamente completos y resultados no verificados; incluye StrongDM, P1–P7, métricas, riesgos y pruebas adversariales. **Estudio público, no acreditación LIVE ni autorización de integración privada.**
@@ -12,7 +18,7 @@ El estudio incluye ahora **[StrongDM + P1–P7 y la continuidad de seis carriles
 
 **Resultado de las rondas:** el inventario MCP dispone de código de paginación y correcciones probadas en fixtures, pero el esquema del servicio efectivamente conectado sigue sin acreditar completitud; el juez detectó problemas adicionales de vigencia temporal; hay carreras de escritor tardío sin fencing en el punto de efecto; el consumidor accesible identificó respuestas incompatibles con filtros/presupuestos; también apareció una diferencia entre una PR marcada como fusionada y los archivos realmente presentes en `main`. Los gates de aceptación permanecen pendientes.
 
-**Decisión de investigación:** KEEP del patrón StrongDM (atribución y autorización por acción), HOLD del producto propietario; KEEP de ideas P1–P7, sin nuevos servicios, grants, despliegue ni dependencias automáticas. **R5 HOLD de cierre; R6 PLAN ONLY condicionado; R7 no activada.** Los estados son cortes documentales y no telemetría en directo.
+**Decisión de investigación:** KEEP del patrón StrongDM (atribución y autorización por acción), HOLD del producto propietario; KEEP de ideas P1–P7, sin nuevos servicios, grants, despliegue ni dependencias automáticas. **R5 cerrado administrativamente; aceptación técnica HOLD; R6 PLAN ONLY condicionado; R7 no activada.** Los estados son cortes documentales y no telemetría en directo.
 
 ## Arquitectura objetivo
 
@@ -95,6 +101,8 @@ Usar `PASS`, `FAIL`, `HOLD`, `NO_DATA(causa)` con fuente, hora y versión exacta
 
 
 ## Material adicional para investigación
+
+- [Doce dominios: MVP nativos, skills propuestas y pruebas](MVP-NATIVO-SKILLS-12-DOMINIOS-2026-11-26.md)
 
 - [StrongDM, P1–P7 y aprendizajes de seis carriles paralelos (26 nov)](CONTINUIDAD-AGENTIC-SWARM-2026-11-26.md)
 
