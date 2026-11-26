@@ -2,6 +2,12 @@
 
 **Documento divulgativo y saneado.** No es un espejo del repositorio privado, no contiene credenciales, direcciones de hosts, sesiones, instrucciones operativas ni autorizaciones. La eliminación posterior de un repositorio público no elimina copias, forks o cachés.
 
+## Traspaso para Ideas26nov · Parte 3
+
+**[Guía de preparación de la Parte 3: arquitectura y gates U7–U10](PREPARACION-IDEAS26NOV-PARTE3-2026-11-26.md)**. Concilia las Partes 1 y 2 con el MVP de doce dominios, indica los apartados IX/X anunciados y señala qué debe contrastarse antes de proponer CAMALEÓN v0.3. **La Parte 3 todavía no consta recibida en la búsqueda de Gmail del corte**; la guía no sustituye el texto original.
+
+**Corte de las doce propuestas de dominio:** 12/12 fichas con PR documental identificada; 2/12 integradas y verificadas en `main`, 10/12 abiertas y pendientes de revisión; **0/12 skills E2E acreditadas por este conteo**. La ficha F · VECTOR ya existe como propuesta en PR. Un workflow observado del SWARM informó 225 PASS / 2 FAIL / 17 SKIP; ese resultado pertenece a un HEAD específico y no se aplica automáticamente a todas las PR. El juez detectó también diferencias en el nombre del campo de denegación (`deny_conditions`); cada titular debe resolverlas en su propia PR.
+
 ## Ideas26nov v0.3 · Parte 2 recibida
 
 Ya está disponible la **[síntesis de la Parte 2: N · VIGÍA, O · ADUANA, REGISTRO-DE-VIGÍA y deltas U0–U10](IDEAS26NOV-V03-PARTE2-N-O-U0-U10.md)**. Aporta contratos de exploración de fuentes, cuarentena, adopción con revisión y nuevas propuestas sobre MCP Tasks, evolución con gates y navegador aislado. **N/O permanecen PROPOSED**, sin ejecución, privilegios, grants o nueva autoridad. Se resuelve la ausencia de su definición documental; la ejecución E2E sigue NO_DATA. La Parte 3/3 del correo continúa pendiente y no se sustituye por conjeturas.
@@ -105,6 +111,9 @@ Usar `PASS`, `FAIL`, `HOLD`, `NO_DATA(causa)` con fuente, hora y versión exacta
 
 
 ## Material adicional para investigación
+
+- [Traspaso para redactar Ideas26nov Parte 3/3](PREPARACION-IDEAS26NOV-PARTE3-2026-11-26.md)
+- [Ideas26nov Parte 2/3 · N/O y deltas U0–U10](IDEAS26NOV-V03-PARTE2-N-O-U0-U10.md)
 
 - [Doce dominios: MVP nativos, skills propuestas y pruebas](MVP-NATIVO-SKILLS-12-DOMINIOS-2026-11-26.md)
 
