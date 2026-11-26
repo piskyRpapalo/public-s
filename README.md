@@ -87,3 +87,7 @@ Usar `PASS`, `FAIL`, `HOLD`, `NO_DATA(causa)` con fuente, hora y versión exacta
 - [Agenda de preguntas y deuda arquitectónica](RESEARCH-AGENDA.md)
 - [Repositorios externos para contrastar ideas](EXTERNAL-REFERENCES.md)
 - [Plantilla de manifiesto para cambios privados futuros](MANIFEST-TEMPLATE.md)
+
+## Retrospectiva de la construcción
+
+- [Intención, interpretación y resultados · 25 nov 21:00 → 26 nov](RETROSPECTIVE-2026-11-25-21H.md)
