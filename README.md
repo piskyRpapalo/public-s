@@ -6,6 +6,14 @@
 
 - **[Capacidades agentic, MCP y experimentos reproducibles · 26 nov 2026](AGENT-CAPABILITIES-MCP-2026-11-26.md)**. Documento principal para revisar qué aportan los roles, qué reutilizar del MCP existente, cómo evitar escritor obsoleto, inventarios falsamente completos y resultados no verificados; incluye StrongDM, P1–P7, métricas, riesgos y pruebas adversariales. **Estudio público, no acreditación LIVE ni autorización de integración privada.**
 
+## Actualización de continuidad · segunda mitad de la mañana del 26/11/2026
+
+El estudio incluye ahora **[StrongDM + P1–P7 y la continuidad de seis carriles](CONTINUIDAD-AGENTIC-SWARM-2026-11-26.md)**. Se recuperaron seis unidades conversacionales con asignación determinista y recibos; **no** queda acreditado que seis procesos CLI se hayan iniciado ni que exista ya un bucle autónomo E2E.
+
+**Resultado de las rondas:** el inventario MCP dispone de código de paginación y correcciones probadas en fixtures, pero el esquema del servicio efectivamente conectado sigue sin acreditar completitud; el juez detectó problemas adicionales de vigencia temporal; hay carreras de escritor tardío sin fencing en el punto de efecto; el consumidor accesible identificó respuestas incompatibles con filtros/presupuestos; también apareció una diferencia entre una PR marcada como fusionada y los archivos realmente presentes en `main`. Los gates de aceptación permanecen pendientes.
+
+**Decisión de investigación:** KEEP del patrón StrongDM (atribución y autorización por acción), HOLD del producto propietario; KEEP de ideas P1–P7, sin nuevos servicios, grants, despliegue ni dependencias automáticas. **R5 HOLD de cierre; R6 PLAN ONLY condicionado; R7 no activada.** Los estados son cortes documentales y no telemetría en directo.
+
 ## Arquitectura objetivo
 
 **Soberano** (decide y autoriza) → **ChatGPT** (coordina y selecciona) → **MCP / herramientas remotas autorizadas** → **Hexelion / ejecutores** (ejecutan dentro de permisos) → **preceptores** (construyen) → **recibos** → **juez independiente** → **Acho** (voz, pantalla y máquina).
@@ -20,7 +28,7 @@ Esto describe el diseño previsto, **no una prueba de funcionamiento integral**.
 | B · Pulso | Correlación de tareas, roster y recibos duraderos | Roster SWARM, LAB journal, CI | Puente real no acreditado; fixtures fallidos |
 | C · Memoria tectónica | Grafo de dependencias y recuperación | Grafo SWARM, GitHub, CAMALEÓN | Reconciliar cambios duplicados con PR integrada |
 | D · Juez | Auditoría independiente | GitHub, CI, recibos, diagnóstico remoto autorizado | R5 en HOLD; aceptación real incompleta |
-| E · Caudal MCP | Inventarios, transporte y sesiones | MCP nativo, herramientas de diagnóstico | Respuestas demasiado grandes; paginación pendiente |
+| E · Caudal MCP | Inventarios, transporte y sesiones | MCP nativo, herramientas de diagnóstico | Paginación construida y probada en fixtures; servicio conectado y vigencia temporal sin acreditar completamente |
 | F · Concurrencia | Scheduler y paralelismo eficiente | Scheduler existente, métricas | Falta coste/energía atribuible |
 | G · Expertos | Selección y evaluación de especialistas/modelos | Harness de evaluación, catálogo de modelos | Beneficio comparativo no acreditado |
 | H · SuperBot / Acho | Voz, accesibilidad y proyección del estado | APP, voz, fuentes de estado | Paridad voz/pantalla/máquina sin prueba integral |
@@ -87,6 +95,8 @@ Usar `PASS`, `FAIL`, `HOLD`, `NO_DATA(causa)` con fuente, hora y versión exacta
 
 
 ## Material adicional para investigación
+
+- [StrongDM, P1–P7 y aprendizajes de seis carriles paralelos (26 nov)](CONTINUIDAD-AGENTIC-SWARM-2026-11-26.md)
 
 - [Agenda de preguntas y deuda arquitectónica](RESEARCH-AGENDA.md)
 - [Repositorios externos para contrastar ideas](EXTERNAL-REFERENCES.md)
