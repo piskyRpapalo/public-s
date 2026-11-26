@@ -67,3 +67,13 @@ La [síntesis StrongDM/P1–P7](CONTINUIDAD-AGENTIC-SWARM-2026-11-26.md) añade 
 **Regla de lectura:** una fixtura adversarial que encuentra un contraejemplo es un **FAIL del sistema bajo prueba**, aunque la prueba que lo detecta funcione. La ausencia de evidencia real de servicio o voz se marca `NO_DATA(causa)`, no PASS.
 
 **Siguiente ciclo público:** pedir a proyectos externos ejemplos mínimos de compare-and-swap + fencing del **efecto**, cursores coherentes bajo revocación/tiempo, y pruebas falsables de accesibilidad; evaluar cada candidato por integración mínima, licencia, reversibilidad y coste de gobierno. El patrón StrongDM sirve para contrastar atributos, no autoriza desplegar software propietario.
+
+## Ronda PRE-R6 · MVP nativo y skills por dominio
+
+**Fuente:** [contratos propuestos para doce dominios](MVP-NATIVO-SKILLS-12-DOMINIOS-2026-11-26.md). La evolución documental de A–K y NEXO-09 es trabajo distribuido **propuesto/iniciado**, no doce implementaciones ni procesos de ejecución acreditados. R5 cerrado administrativamente por decisión humana; aceptación técnica HOLD. R6 PLAN ONLY y R7 no activada.
+
+**Preguntas de la ronda:** ¿cuál es la capacidad existente que cada dominio puede reutilizar? ¿Qué skill mínima reduce pasos manuales sin inventar un plano de control? ¿Quién es el titular de su ficha, su interfaz y su prueba? ¿Qué evidencia falta para pasar de propuesta a componente comprobado? ¿Cuánto tiempo humano y energía se ahorra realmente, con denominador y método?
+
+**Gate documental de una ficha:** identidad y misión intactas; `EXISTING/REUSE/PROPOSED/HOLD/DISCARD` separados; cada skill con `trigger/inputs/outputs/existing_tool/required_authorization/deny_conditions/evidence/tests/metrics/rollback`; enlaces internos válidos; revisión ajena; ningún secreto ni grant por texto. **No** adoptar por anticipado agentes o deltas anunciados en partes de investigación aún no disponibles.
+
+**Tareas de contraste externo:** ejemplos reproducibles de actor single-writer sin proceso adicional; curación de skills bloqueadas y anti-drift; aislamiento de worktrees sin colisión; acceso default-deny con atribución verificable; verificación de lectores de pantalla sin depender solo de test unitario. Cada referencia necesita licencia/versión exacta antes de copiar o integrar.
