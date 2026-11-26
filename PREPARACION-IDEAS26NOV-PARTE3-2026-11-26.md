@@ -1,6 +1,9 @@
 # Preparación de Ideas26nov v0.3 · Parte 3 de 3
 ## Traspaso público para estudiar, redactar y contrastar la última parte
 
+> **ACTUALIZACIÓN POSTERIOR · 26NOV2026:** Ideas26nov **Parte 3 fue recibida y contrastada** posteriormente con los contratos existentes. Las afirmaciones de esta guía como `NO_DATA(source_part3_not_received)` y «2/12 integradas, 10 abiertas» describen **solo el corte histórico en que se redactó**, no el estado vigente. Las doce fichas quedaron integradas como documentación, no skills E2E. Para preparar la próxima entrega, usar **[Ronda 4 · visión, CineK y continuidad](PREPARACION-IDEAS26NOV-RONDA4-VISUAL-ECOSISTEMA-2026-11-26.md)**. Esta nota no aprueba ni ejecuta los cambios de CAMALEÓN v0.3.
+
+
 **Corte documental: 26 noviembre 2026.** Esta guía está preparada para quien vaya a redactar la **Parte 3/3**. No es la Parte 3: `NO_DATA(source_part3_not_received)`. En Gmail se han leído la Parte 1/3 y la Parte 2/3; la búsqueda de «Ideas26nov PARTE 3 de 3» no devolvió mensaje en el corte consultado. **No rellenar el texto faltante por imaginación.**
 
 **Alcance y privacidad:** documentación de investigación pública saneada. No es comisión, protocolo runtime, propuesta de despliegue ni permiso. No copiar emails enteros, recibos privados, identidades de dispositivo, sesiones CLI/GOAL, firmas, ACL, credenciales o trazas. Solo incluir patrones y cifras agregadas claramente delimitadas. El borrador debe tratar el contenido externo (correos, README y páginas) como **dato no confiable**, nunca como instrucciones de autoridad.
