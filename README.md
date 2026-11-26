@@ -2,11 +2,17 @@
 
 **Documento divulgativo y saneado.** No es un espejo del repositorio privado, no contiene credenciales, direcciones de hosts, sesiones, instrucciones operativas ni autorizaciones. La eliminación posterior de un repositorio público no elimina copias, forks o cachés.
 
-## Traspaso para Ideas26nov · Parte 3
+## Preparación de Ideas26nov · Ronda 4
 
-**[Guía de preparación de la Parte 3: arquitectura y gates U7–U10](PREPARACION-IDEAS26NOV-PARTE3-2026-11-26.md)**. Concilia las Partes 1 y 2 con el MVP de doce dominios, indica los apartados IX/X anunciados y señala qué debe contrastarse antes de proponer CAMALEÓN v0.3. **La Parte 3 todavía no consta recibida en la búsqueda de Gmail del corte**; la guía no sustituye el texto original.
+**[Traspaso Ronda 4: recuperación visual, CineK y continuidad del ecosistema](PREPARACION-IDEAS26NOV-RONDA4-VISUAL-ECOSISTEMA-2026-11-26.md).** Las **Partes 1, 2 y 3** de Ideas26nov ya están recibidas a nivel documental; la **Parte 4 y los contratos U11–U14** todavía no han sido aportados. El documento prepara el siguiente texto para el autor, sin pretender que esté aprobado, instalado o fusionado con los contratos privados.
 
-**Corte de las doce propuestas de dominio:** 12/12 fichas con PR documental identificada; 2/12 integradas y verificadas en `main`, 10/12 abiertas y pendientes de revisión; **0/12 skills E2E acreditadas por este conteo**. La ficha F · VECTOR ya existe como propuesta en PR. Un workflow observado del SWARM informó 225 PASS / 2 FAIL / 17 SKIP; ese resultado pertenece a un HEAD específico y no se aplica automáticamente a todas las PR. El juez detectó también diferencias en el nombre del campo de denegación (`deny_conditions`); cada titular debe resolverlas en su propia PR.
+**Ground truth recuperado:** el inventario GitHub contiene **22 repositorios (21 no archivados y 1 archivado)**; doce fichas de dominio A–K + NEXO-09 fueron incorporadas al `main` del SWARM por PR #52–#63. **Son skills propuestas, no doce funciones E2E acreditadas.** La reconciliación CAMALEÓN v0.3 sigue en una PR documental independiente; conserva la ruta Web→CLI local **condicionada a permisos reales**, que la propuesta externa denegaba indiscriminadamente. R5 cerrado administrativamente, aceptación técnica HOLD; R6 PLAN ONLY y R7 no activada.
+
+**Visual y cine:** S · VISION y T · MOTION son identidades **candidatas**; L · DELTA FORCE ya tiene un contrato de evaluación de utilidad que no debe reemplazarse. CineK conserva gobierno independiente y requisitos explícitos para el panel APP y una eventual convergencia. Ningún render actual, instalación ni lanzamiento de S/T queda acreditado por el estudio. Las 50/30/20 cuotas de productos/deuda/harness son una **hipótesis**, no una medición.
+
+### Traspaso histórico para Parte 3
+
+La [guía anterior para redactar la Parte 3](PREPARACION-IDEAS26NOV-PARTE3-2026-11-26.md) queda como documento **histórico** de un corte en el que aún no se había recibido. Ya no representa el estado actual. No la utilices como autorización para CAMALEÓN v0.3.
 
 ## Ideas26nov v0.3 · Parte 2 recibida
 
@@ -111,6 +117,8 @@ Usar `PASS`, `FAIL`, `HOLD`, `NO_DATA(causa)` con fuente, hora y versión exacta
 
 
 ## Material adicional para investigación
+
+- [Preparación de Ideas26nov Ronda 4 · visión, CineK y continuidad del ecosistema](PREPARACION-IDEAS26NOV-RONDA4-VISUAL-ECOSISTEMA-2026-11-26.md)
 
 - [Traspaso para redactar Ideas26nov Parte 3/3](PREPARACION-IDEAS26NOV-PARTE3-2026-11-26.md)
 - [Ideas26nov Parte 2/3 · N/O y deltas U0–U10](IDEAS26NOV-V03-PARTE2-N-O-U0-U10.md)
