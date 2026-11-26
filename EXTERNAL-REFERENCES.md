@@ -92,3 +92,23 @@ Estas fuentes son **referencias para estudiar patrones**, no prueba de rendimien
 | SVG y Mermaid | https://www.w3.org/TR/SVG2/ y https://mermaid.js.org/ | Diagramas versionables, accesibles cuando se acompañan de texto | No inventar servicios ni flujos LIVE |
 
 **Producción audiovisual sin dependencia nueva:** evento sintético → guion/storyboard → render solo tras autorizar el motor existente → subtítulos y verificación → publicación autorizada. S/T son nombres **propuestos**, L conserva el rol real de evaluación de utilidad. El plan de reparto 50/30/20 carece todavía de baseline.
+
+## Ideas26nov · Parte 3 y Adenda A3 · catálogo de contraste para Ronda 4
+
+Estas referencias son **candidatos de investigación**; ninguna está declarada instalada. No reutilizar código sin comprobar versión, LICENSE, permisos y sandbox. [Síntesis Parte 3/A3](IDEAS26NOV-V03-PARTE3-SINTESIS-PUBLICA-2026-11-26.md) y [traspaso Ronda 4](PREPARACION-IDEAS26NOV-RONDA4-2026-11-26.md).
+
+| Referencia de estudio | URL | Patrón reutilizable | Límite |
+|---|---|---|---|
+| MCP Tasks ext-tasks / especificación | https://github.com/modelcontextprotocol/ext-tasks | Handle asíncrono, estados, auth por petición, expiración y cancel cooperativa | Protocol version, LICENSE y compatibilidad real `NO_DATA`; handle≠grant |
+| Hermes self-evolution | https://github.com/NousResearch/hermes-agent-self-evolution | Evolución con evaluación, restricciones, PR y revisión | No autoaplicar; separar licencias del código y de motores externos |
+| Playwright MCP | https://github.com/microsoft/playwright-mcp | Snapshot accesible, perfiles aislados, control de pestañas | Lector físico aparte; instalación/version exacta no acreditadas |
+| Chrome DevTools MCP | https://github.com/ChromeDevTools/chrome-devtools-mcp | Traces y diagnóstico browser como complemento | NO_DATA(license_version_exact_not_checked) |
+| Cloudflare security audit skill | https://github.com/cloudflare/security-audit-skill | Hallazgo adversarial que debe resistir refutación independiente | No aprobar por el relato del propio juez |
+| NVIDIA SkillSpector | https://github.com/NVIDIA/SkillSpector | Inspección de procedencia y riesgos de una skill | Score externo no es grant, fiabilidad independiente NO_DATA |
+| TruffleHog | https://github.com/trufflesecurity/trufflehog | Saneado y detección de secretos sintéticos | No enviar/validar credenciales reales |
+| Microsoft PyRIT | https://github.com/Azure/PyRIT | Evaluación adaptativa multi-turno en entorno autorizado | Solo fixtures propios aislados |
+| Trivy | https://github.com/aquasecurity/trivy | Oráculos deterministas de dependencias/IaC | No instalar por defecto |
+| Nuclei | https://github.com/projectdiscovery/nuclei | Reglas de prueba reproducibles | No escanear activos sin permiso |
+| Semgrep | https://github.com/semgrep/semgrep | Análisis de reglas y revisión de código | Diferenciar edición community/producto y licencia real |
+
+**Complemento visual:** [Ronda 4 · visión/CineK/continuidad](PREPARACION-IDEAS26NOV-RONDA4-VISUAL-ECOSISTEMA-2026-11-26.md). S·VISION y T·MOTION son especializaciones candidatas, no herramientas ejecutables; CineK conserva gobierno independiente y L su contrato vigente de utilidad.
