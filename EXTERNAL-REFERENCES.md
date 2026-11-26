@@ -76,4 +76,19 @@ Estas fuentes son **referencias para estudiar patrones**, no prueba de rendimien
 | Orca | https://github.com/stablyai/orca | Trabajo paralelo aislado por worktrees y Git como testigo | Un dueño por unidad y entrega verificada en destino exacto; no DB nueva. Licencia NO_DATA. |
 | W3C ARIA live regions | https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Guides/Live_regions | Estado programáticamente anunciable | Región persistente, avisos por criticidad, lector físico independiente de fixtures. |
 
-**Material defensivo de forks retirados:** no clonar ni ejecutar códigos o cargas asociadas a iniciativas ofensivas que carezcan de origen auditado. Usar únicamente casos sintéticos y revisión de seguridad para J/K. **Partes 2 y 3 de Ideas26nov v0.3:** `NO_DATA(source_not_available)` en la fuente consultada; no dar por adoptados los conceptos solo anunciados.
+**Material defensivo de forks retirados:** no clonar ni ejecutar códigos o cargas asociadas a iniciativas ofensivas que carezcan de origen auditado. Usar únicamente casos sintéticos y revisión de seguridad para J/K. **Corte histórico:** esta sección se escribió antes de recibir las Partes 2 y 3. **Ahora ambas se han leído documentalmente**; sus propuestas no están aprobadas ni instaladas. Para la Parte 4 y los U11–U14 anunciados en A3, `NO_DATA(source_not_received)`.
+
+## Ronda 4 · patrones visuales y continuidad que deben estudiarse, no instalarse
+
+**[Guía de preparación Ronda 4](PREPARACION-IDEAS26NOV-RONDA4-VISUAL-ECOSISTEMA-2026-11-26.md)**. Antes de probar una dependencia externa, confirmar licencia/tag/commit/permiso y comprobar si APP/WEB/CineK/TextCAD ya resuelven el problema. No presentar el catálogo como inventario de software instalado.
+
+| Referencia o producto | Fuente pública | Reutilización conceptual | Gate |
+|---|---|---|---|
+| APP y WEB | https://github.com/piskyRpapalo/preceptoros-app y https://github.com/piskyRpapalo/preceptoros-web | Capturas auténticas, versiones, demostraciones reproducibles y documentación accesible | Fuente/HEAD, testigo de funcionalidad, alt text; mock etiquetado |
+| LAB / STUDY | https://github.com/piskyRpapalo/lab y https://github.com/piskyRpapalo/study | Fixtures de modelos, evaluación visual y difusión del conocimiento | No inferir rendimiento por README o ejemplo |
+| TextCAD | https://github.com/piskyRpapalo/textcad | Referencia para render visual, validación y corrección | Revisar licencia/implementación en HEAD; no reconstruir |
+| CineK (gobierno propio) | Nombre de proyecto, sin publicar rutas de gestión ni infraestructura | Estudio del pipeline cinematográfico histórico y transferencia eventual mediante interfaz acordada | Independencia contractual, permisos, derechos, estado actual NO_DATA |
+| W3C WAI / WCAG | https://www.w3.org/WAI/standards-guidelines/wcag/ | Texto alternativo, subtítulos, navegación y semántica equivalente | Snapshot sintético no sustituye lector físico |
+| SVG y Mermaid | https://www.w3.org/TR/SVG2/ y https://mermaid.js.org/ | Diagramas versionables, accesibles cuando se acompañan de texto | No inventar servicios ni flujos LIVE |
+
+**Producción audiovisual sin dependencia nueva:** evento sintético → guion/storyboard → render solo tras autorizar el motor existente → subtítulos y verificación → publicación autorizada. S/T son nombres **propuestos**, L conserva el rol real de evaluación de utilidad. El plan de reparto 50/30/20 carece todavía de baseline.
