@@ -2,6 +2,12 @@
 
 **Documento divulgativo y saneado.** No es un espejo del repositorio privado, no contiene credenciales, direcciones de hosts, sesiones, instrucciones operativas ni autorizaciones. La eliminación posterior de un repositorio público no elimina copias, forks o cachés.
 
+## Ideas26nov · Parte 3 y Adenda A3 contrastadas
+
+**[Síntesis de la Parte 3/3, Adenda A3 y diferencias con el sistema existente](IDEAS26NOV-V03-PARTE3-SINTESIS-PUBLICA-2026-11-26.md)**. Recupera los patrones U7 MCP Tasks, U8 evolución revisada, U9 aislamiento/ARIA y U10 CAMALEÓN propuesto, además de cinco líneas defensivas A3 y la skill `o.secret_detection` que faltaba en el resumen de Parte 2. **No se ha sustituido el contrato CAMALEÓN ni instalado un servicio.**
+
+**Dos documentos complementarios preparan la Ronda 4:** la [guía de recepción y reconciliación](PREPARACION-IDEAS26NOV-RONDA4-2026-11-26.md) y el [estudio visual, CineK y continuidad del ecosistema](PREPARACION-IDEAS26NOV-RONDA4-VISUAL-ECOSISTEMA-2026-11-26.md). S · VISION y T · MOTION son candidatos documentales; L · DELTA FORCE conserva su contrato de utilidad. `NO_DATA(source_round4_U11_U14_text_not_received)` hasta que llegue el texto real.
+
 ## Preparación de Ideas26nov · Ronda 4
 
 **[Traspaso Ronda 4: recuperación visual, CineK y continuidad del ecosistema](PREPARACION-IDEAS26NOV-RONDA4-VISUAL-ECOSISTEMA-2026-11-26.md).** Las **Partes 1, 2 y 3** de Ideas26nov ya están recibidas a nivel documental; la **Parte 4 y los contratos U11–U14** todavía no han sido aportados. El documento prepara el siguiente texto para el autor, sin pretender que esté aprobado, instalado o fusionado con los contratos privados.
@@ -16,13 +22,13 @@ La [guía anterior para redactar la Parte 3](PREPARACION-IDEAS26NOV-PARTE3-2026-
 
 ## Ideas26nov v0.3 · Parte 2 recibida
 
-Ya está disponible la **[síntesis de la Parte 2: N · VIGÍA, O · ADUANA, REGISTRO-DE-VIGÍA y deltas U0–U10](IDEAS26NOV-V03-PARTE2-N-O-U0-U10.md)**. Aporta contratos de exploración de fuentes, cuarentena, adopción con revisión y nuevas propuestas sobre MCP Tasks, evolución con gates y navegador aislado. **N/O permanecen PROPOSED**, sin ejecución, privilegios, grants o nueva autoridad. Se resuelve la ausencia de su definición documental; la ejecución E2E sigue NO_DATA. La Parte 3/3 del correo continúa pendiente y no se sustituye por conjeturas.
+Ya está disponible la **[síntesis de la Parte 2: N · VIGÍA, O · ADUANA, REGISTRO-DE-VIGÍA y deltas U0–U10](IDEAS26NOV-V03-PARTE2-N-O-U0-U10.md)**. Aporta contratos de exploración de fuentes, cuarentena, adopción con revisión y nuevas propuestas sobre MCP Tasks, evolución con gates y navegador aislado. **N/O permanecen PROPOSED**, sin ejecución, privilegios, grants o nueva autoridad. Se resuelve la ausencia de su definición documental; la ejecución E2E sigue NO_DATA. La Parte 3/3 ya fue recibida y contrastada en la síntesis pública enlazada al inicio; no se adopta sin revisión.
 
 ## PRE-R6 · doce dominios en evolución documental
 
 **[MVP nativo y skills de los doce dominios](MVP-NATIVO-SKILLS-12-DOMINIOS-2026-11-26.md)** · Contratos de propuesta para A–K y NEXO-09, con reutilización de herramientas existentes, pruebas adversariales, dueño, métricas, evidencia y reversión. Es una **ronda de investigación paralela**, no doce CLI activos ni doce servicios desplegados.
 
-**Estado de gobierno actualizado:** `R5_WORK_CYCLE=CLOSED_ADMINISTRATIVELY_BY_SOVEREIGN`; `R5_TECHNICAL_ACCEPTANCE=HOLD` (fallos y datos pendientes siguen bloqueados); `R6=PLAN_ONLY`; `R7=NOT_ACTIVATED`. El cierre administrativo no rebaja seguridad ni constituye firma criptográfica. Los contratos documentales N/O y los deltas U0–U10 ya tienen fuente en Ideas26nov Parte 2; la Parte 3 y las pruebas de ejecución siguen `NO_DATA(source_not_available_or_e2e_unverified)`.
+**Estado de gobierno actualizado:** `R5_WORK_CYCLE=CLOSED_ADMINISTRATIVELY_BY_SOVEREIGN`; `R5_TECHNICAL_ACCEPTANCE=HOLD` (fallos y datos pendientes siguen bloqueados); `R6=PLAN_ONLY`; `R7=NOT_ACTIVATED`. El cierre administrativo no rebaja seguridad ni constituye firma criptográfica. Los contratos documentales N/O y los deltas U0–U10 ya tienen fuente en Ideas26nov Parte 2; la Parte 3 ya tiene fuente, pero las pruebas de ejecución siguen `NO_DATA(e2e_unverified)`.
 
 ## Estudio prioritario: capacidades de agentes y mejora de MCP
 
@@ -117,6 +123,10 @@ Usar `PASS`, `FAIL`, `HOLD`, `NO_DATA(causa)` con fuente, hora y versión exacta
 
 
 ## Material adicional para investigación
+
+- [Síntesis Parte 3 y Adenda A3 contrastadas](IDEAS26NOV-V03-PARTE3-SINTESIS-PUBLICA-2026-11-26.md)
+- [Ronda 4 · traspaso general de ground truth](PREPARACION-IDEAS26NOV-RONDA4-2026-11-26.md)
+- [Ronda 4 · visión, CineK y continuidad de productos](PREPARACION-IDEAS26NOV-RONDA4-VISUAL-ECOSISTEMA-2026-11-26.md)
 
 - [Preparación de Ideas26nov Ronda 4 · visión, CineK y continuidad del ecosistema](PREPARACION-IDEAS26NOV-RONDA4-VISUAL-ECOSISTEMA-2026-11-26.md)
 
