@@ -1,5 +1,7 @@
 # SWARM · MVP nativo y catálogo de skills · doce dominios (PRE-R6)
 
+> **Corrección posterior de continuidad · 26NOV2026:** los doce dominios A–K + NEXO-09 fueron incorporados como **fichas documentales** en el `main` del SWARM. La cifra anterior «dos integradas y diez abiertas» es un corte histórico, no el estado final de esas PR. Ideas26nov Partes 1–3 ya constan recibidas documentalmente; la **Parte 4 y U11–U14** siguen `NO_DATA(source_not_received)`. [Preparación de la Ronda 4 · visión, CineK y continuidad](PREPARACION-IDEAS26NOV-RONDA4-VISUAL-ECOSISTEMA-2026-11-26.md). **S/T candidatas, no nuevas identidades aprobadas; L conserva evaluación de utilidad.** No se atribuyen aquí doce skills E2E.
+
 **Estudio público, 26 de noviembre de 2026.** Documento de investigación y propuesta de contratos; no es una comisión ni una transcripción del entorno privado. Describe doce **identidades de referencia** (once A–K más coordinación NEXO-09), no doce procesos CLI acreditados, ni doce servicios a instalar. Los doce carriles conversacionales se han propuesto para trabajar **en paralelo y sobre fichas separadas**. La incorporación a Markdown privado no crea capacidades ejecutables.
 
 **Decisión de alcance:** `R5_WORK_CYCLE=CLOSED_ADMINISTRATIVELY_BY_SOVEREIGN`, `R5_TECHNICAL_ACCEPTANCE=HOLD`, `R6=PLAN_ONLY` y `R7=NOT_ACTIVATED`. El cierre de gestión no promueve errores, SKIP o `NO_DATA` a PASS ni libera gates de seguridad. Los estados son **declaraciones documentales**, no telemetría live.
