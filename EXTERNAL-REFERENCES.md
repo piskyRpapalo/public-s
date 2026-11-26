@@ -28,3 +28,19 @@ Enlaces a repositorios públicos conocidos. **NO_DATA(revisión comparativa actu
 **Decisión:** KEEP / HOLD / DISCARD, con causa y responsable.
 
 No incorporar dependencias automáticamente; primero evaluar conceptos y pruebas reproducibles.
+
+## Capacidades de agentes, gobierno del MCP y continuidad · ampliación 26 noviembre
+
+Estas fuentes son **referencias para estudiar patrones**, no prueba de rendimiento, licencia exacta o necesidad de instalar un producto. En particular, la solución empresarial de StrongDM/Delinea no es software abierto; no se propone adoptar su servicio o broker.
+
+| Referencia | Enlace | Patrón que merece contraste | Evidencia local necesaria antes de adoptar |
+|---|---|---|---|
+| StrongDM Secure AI / Attribution | https://docs.strongdm.com/ai | Autorización por acción, identidad de iniciador y traza de denegación | Verificar principal y scope efectivo sin otro broker |
+| Kubernetes API list/continue | https://kubernetes.io/docs/reference/using-api/api-concepts/ | Cursor, snapshot, caducidad, respuesta explícita | Filas completas bajo concurrencia, límite y revocación |
+| etcd | https://github.com/etcd-io/etcd | Revisión monótona / exclusión con fencing | Receptor rechaza escritor antiguo; sin nueva DB por defecto |
+| CodeCarbon | https://github.com/mlco2/codecarbon | Medición local o estimación energética identificada | Método, resolución, atribución y revisión de versión/licencia |
+| EcoLogits | https://github.com/mlco2/ecologits | Estimación remota con incertidumbre | Rango/método separado de Wh medidos y revisión de dependencias |
+| W3C WCAG 4.1.3 | https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html | Anuncios de estados de forma accesible | Pruebas semánticas + lector físico real |
+| LitmusChaos | https://github.com/litmuschaos/litmus | Steady state, inyección verificada, abort y reversión | Fixture aislado, sin instalar operador por defecto |
+
+**Documento de aplicación:** [capacidades y evolución MCP](AGENT-CAPABILITIES-MCP-2026-11-26.md). **NO_DATA(revisión_completa_de_licencias_y_versiones)** para integración de dependencias ajenas; estudiar algoritmos antes que servicios.
