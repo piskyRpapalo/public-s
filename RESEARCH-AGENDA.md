@@ -49,3 +49,21 @@ No copiar código sin revisar licencia y dependencias. No publicar datos privado
 La investigación debe priorizar, en este orden, **P0 exclusión de escritor obsoleto en el punto de efecto**, **P0 integridad/caducidad temporal del inventario MCP**, **P1 procedencia real del iniciador y resultado duradero**, **P1 verificación de filtros/bytes del consumidor**, y **P2 paridad accesible y métricas de utilidad**. Para cada capacidad exigir prueba adversarial con oráculo y fuente exacta; no añadir nuevos agentes para sustituir un contrato incompleto.
 
 **Separación obligatoria:** código en repositorio ≠ candidato en PR ≠ servicio conectado ≠ prueba E2E. Los tests sintéticos no demuestran permisos, inventario íntegro servido, voz física o independencia criptográfica del juez. `NO_DATA(causa)` cuando falte evidencia.
+
+## Actualización empírica · seis carriles CAMALEÓN (26NOV2026)
+
+La [síntesis StrongDM/P1–P7](CONTINUIDAD-AGENTIC-SWARM-2026-11-26.md) añade evidencia **agregada y saneada**. No modifica el mandato de estudiar antes de implementar.
+
+| Prioridad | Cambio respecto al corte inicial | Hipótesis falsable para estudio externo |
+|---|---|---|
+| P0 · Propiedad del efecto | Se reprodujeron escrituras obsoletas y carreras en fixtures aislados; el almacenamiento durable parcial no basta. | Token monótono validado atómicamente por el receptor; ninguna escritura anterior logra efecto tras sustitución/revocación. |
+| P0 · Autorización temporal | La paginación en fixtures mejoró, pero la validez puede cambiar durante la construcción de una respuesta. | O bien se acredita snapshot/linealización, o el inventario falla cerrado; ninguna fila caducada se presenta como autorizada. |
+| P0 · Testigo independiente | Los resultados sintéticos del roster siguen sin demostrar el vínculo total entre la unidad y el resultado duradero. | El juez recupera un recibo tras reinicio y lo vincula a la operación concreta sin texto explicativo del constructor. |
+| P1 · Consumidor accesible | Se encontraron respuestas aparentemente completas pese a filtros o presupuesto incompatibles. | La proyección rechaza una entrada no conforme y mantiene estado/cause/source/time coherentes en tres canales. |
+| P1 · Entrega de documentos | Se observó un merge a rama intermedia que no propagó archivos al main de consulta. | Prueba de presencia/hash de archivos en el destino exacto, además de estado MERGED. |
+| P1 · Aceptación | Persisten casos SKIP por integración todavía no conectada. | Los gates solo pasan si hay prueba de integración o evidencia equivalente aprobada, nunca ocultando SKIP. |
+| P2 · Medición | Wh y minutos de atención activa aún no cuentan con baseline atribuible. | VU/Wh medido y estimado en series separadas; tiempo humano medido como interacción activa. |
+
+**Regla de lectura:** una fixtura adversarial que encuentra un contraejemplo es un **FAIL del sistema bajo prueba**, aunque la prueba que lo detecta funcione. La ausencia de evidencia real de servicio o voz se marca `NO_DATA(causa)`, no PASS.
+
+**Siguiente ciclo público:** pedir a proyectos externos ejemplos mínimos de compare-and-swap + fencing del **efecto**, cursores coherentes bajo revocación/tiempo, y pruebas falsables de accesibilidad; evaluar cada candidato por integración mínima, licencia, reversibilidad y coste de gobierno. El patrón StrongDM sirve para contrastar atributos, no autoriza desplegar software propietario.
