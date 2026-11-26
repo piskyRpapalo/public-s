@@ -74,3 +74,16 @@
 **Pendiente de demostrar:** ciclo SWARM completo, control por voz accesible, Hexelion conversacional fiable desde APP y productividad verificable de extremo a extremo.
 
 El siguiente documento, tras estudiar repositorios externos, será un **manifiesto de deltas mínimos** para el SWARM privado, sujeto a decisión soberana.
+
+## 8. Adenda del 26 de noviembre: continuidad después de la retrospectiva
+
+**Esta sección es posterior al corte original.** No corrige retrospectivamente lo observado durante la noche: registra qué se aprendió en las rondas posteriores a la primera publicación de este documento, sin transcripciones ni recibos privados.
+
+- **Seis carriles conversacionales.** La coordinación distribuyó seis tareas con identidades deterministas, recuperación CAMALEÓN, pruebas y recibos. Fue posible continuar sin recrear unidades ya fusionadas. Abrir seis conversaciones no equivale a activar seis procesos CLI.
+- **Juez y correcciones incrementales.** Un subconjunto de los controles de inventario mejoró en código y fixtures; el juez detectó otras condiciones de borde de tiempo. Una corrección candidata no acredita automáticamente un servicio actualizado ni un veredicto E2E.
+- **Concurrencia con evidencia adversarial.** La ausencia de fencing en el receptor puede permitir resultados de escritores desfasados aunque existan journals o leases. Las pruebas aisladas no demuestran explotación en producción.
+- **Acho más preciso, todavía parcial.** Los ensayos encontraron que un consumidor debe rechazar respuestas que violen filtros o límites de tamaño; la paridad semántica sintética no demuestra una prueba física de lector de pantalla o voz.
+- **GitHub también necesita verificación de destino.** Una PR fusionada sobre rama intermedia puede no modificar el main consultado; verificar el contenido en la rama final es un gate diferente del estado MERGED.
+- **Estado de cierre.** R5 permanece HOLD de cierre; la investigación StrongDM y P1–P7 es propuesta. No se acredita el bucle autónomo completo, ni se sustituyen permisos humanos.
+
+La investigación resultante se publica en [Continuidad agentic: StrongDM y P1–P7](CONTINUIDAD-AGENTIC-SWARM-2026-11-26.md). El documento nuevo contiene preguntas reproducibles y decisiones KEEP/HOLD/DISCARD; **no concede autoridad para cambios privados**.
