@@ -2,6 +2,10 @@
 
 **Documento divulgativo y saneado.** No es un espejo del repositorio privado, no contiene credenciales, direcciones de hosts, sesiones, instrucciones operativas ni autorizaciones. La eliminación posterior de un repositorio público no elimina copias, forks o cachés.
 
+## Estudio prioritario: capacidades de agentes y mejora de MCP
+
+- **[Capacidades agentic, MCP y experimentos reproducibles · 26 nov 2026](AGENT-CAPABILITIES-MCP-2026-11-26.md)**. Documento principal para revisar qué aportan los roles, qué reutilizar del MCP existente, cómo evitar escritor obsoleto, inventarios falsamente completos y resultados no verificados; incluye StrongDM, P1–P7, métricas, riesgos y pruebas adversariales. **Estudio público, no acreditación LIVE ni autorización de integración privada.**
+
 ## Arquitectura objetivo
 
 **Soberano** (decide y autoriza) → **ChatGPT** (coordina y selecciona) → **MCP / herramientas remotas autorizadas** → **Hexelion / ejecutores** (ejecutan dentro de permisos) → **preceptores** (construyen) → **recibos** → **juez independiente** → **Acho** (voz, pantalla y máquina).
