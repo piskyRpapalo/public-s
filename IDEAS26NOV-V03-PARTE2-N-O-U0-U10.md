@@ -112,3 +112,7 @@ Patrones anteriormente discutidos como Temporal, OpenCode, Hermes y Orca contin�
 Antes de cambiar un contrato real: recuperar HEAD, propietario y PR vigente; verificar código existente; reservar una ruta sin solapamiento; crear un delta mínimo reversible y su fixture; obtener juicio independiente; **decisión soberana** para cada autorización reservada. Las fichas de los doce titulares siguen siendo la primera superficie de trabajo. La Parte 2 no les concede nuevos ámbitos ni promueve N/O a agentes LIVE.
 
 **Conclusión:** la aportación más significativa de esta entrega es una arquitectura de **observación de fuentes + cuarentena + adopción con evidencia**, junto con cuatro deltas de continuidad avanzada. Se puede estudiar y documentar ya; su implementación depende de contratos, fuentes y pruebas aún por acreditar.
+
+## Continuidad de lectura · preparación de Parte 3/3
+
+**Actualización posterior:** se ha publicado el [traspaso de preparación de Ideas26nov Parte 3](PREPARACION-IDEAS26NOV-PARTE3-2026-11-26.md). Recoge el esquema anunciado de las Partes IX/X, el corte verificable de propuestas de doce dominios y los criterios para estudiar U7–U10, sin inventar el texto de la fuente ausente. Este enlace no modifica el estado `PROPOSED` ni autoriza a reescribir contratos privados.
