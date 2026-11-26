@@ -2,6 +2,16 @@
 
 Documento público, conceptual y saneado. **No es una comisión ni un permiso de ejecución.** Cada propuesta requiere comparación con código existente, prueba y juicio independiente antes de cualquier cambio privado.
 
+## Prioridad de contraste · Ideas26nov Parte 3/A3 y preparación Ronda 4
+
+La [Parte 3 y su Adenda A3](IDEAS26NOV-V03-PARTE3-SINTESIS-PUBLICA-2026-11-26.md) ya se recibieron: U7 tareas asíncronas con handle durable; U8 evolución revisada de skills; U9 accesibilidad y aislamiento de navegador; U10 reconciliación CAMALEÓN contra contratos existentes. **Son patrones propuestos**, no runtime conectado ni permiso. La [Ronda 4 general](PREPARACION-IDEAS26NOV-RONDA4-2026-11-26.md) y el [complemento de visión/CineK](PREPARACION-IDEAS26NOV-RONDA4-VISUAL-ECOSISTEMA-2026-11-26.md) son estudios preparatorios: **U11–U14 `NO_DATA(source_not_received)`**.
+
+**Problemas a medir, no ocultar:** 2 FAIL de correlación RESULT, 17 SKIP de aceptación en un corte específico; autonomía E2E y voice/lector físico no acreditados; alias `failure_or_deny_conditions` aún por migrar en algunas fichas; colisiones de claims no resueltas en receptor. Añadir a investigación reproducible la diferencia Web→CLI autorizada vs Web→Web no acreditada, `handle≠grant`, `cancel_ACK≠stop` y hash real en destino Git.
+
+**Ronda 4 visual:** medir cobertura de productos/HEAD con capturas **auténticas**, porcentaje de alt text revisado, licencias de publicación y tiempo de entrega; comparar guion sintético con render verificado del **CineK independiente**; recuperar dependencia del OpenWorld sin duplicar motor. Evaluar L · DELTA FORCE por **utilidad** de la recuperación, no por contar repositorios; S · VISION y T · MOTION siguen identidades candidatas, no procesos. Las prioridades 50/30/20 no tienen baseline medido.
+
+**Adenda A3:** verificar hallazgos intentando refutarlos, examinar procedencia de skills, sanear secretos sintéticos antes de evaluación, inyección multivuelta aislada y oráculos por reglas. Ninguna herramienta de seguridad externa se instala automáticamente, ni se manipulan credenciales verdaderas.
+
 ## Qué se ha observado y qué falta
 
 | Eje | Existe / se reutiliza | Hueco verificable | Pregunta para investigación |
