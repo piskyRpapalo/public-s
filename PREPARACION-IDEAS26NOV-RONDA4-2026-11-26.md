@@ -2,6 +2,14 @@
 
 **Corte: 26 noviembre 2026.** Esta guía se entrega **antes** de recibir la Ronda/Parte 4. **No es una Parte 4 inventada** y no autoriza crear o activar agentes, instalar skills, desplegar, modificar grants ni reemplazar los contratos privados. La Parte 3 sí fue recibida junto con su Adenda A3; allí se anuncia una «Parte 4» con U11–U14, sin aportar su texto. **Entrada pendiente: `NO_DATA(source_round4_U11_U14_text_not_received)`.**
 
+## Complemento contemporáneo · visión, CineK y continuidad del ecosistema
+
+Durante este mismo corte apareció una [preparación pública específica de Ronda 4 sobre visión, CineK y continuidad de repositorios](PREPARACION-IDEAS26NOV-RONDA4-VISUAL-ECOSISTEMA-2026-11-26.md). **Esta guía general es el contrato de recepción**; la otra guía es la **propuesta temática y de especializaciones**. Ambas deben leerse juntas antes de elaborar la nueva entrega y ninguna sustituye la Ronda 4 real, todavía ausente.
+
+La propuesta visual aporta dos identidades **candidatas, no activadas**: **S · VISION** (evidencia gráfica real y accesible de APP/WEB/LAB/STUDY) y **T · MOTION** (recuperación del pipeline CineK y adaptación documental de eventos OpenWorld). No reservar letras ni crear procesos por inferencia: contrastar el roster existente, la disponibilidad de herramientas, las licencias y el propietario de cada salida. **CineK conserva gobierno independiente**: un panel APP o convergencia eventual exigen decisiones separadas y nunca implican archivar/borrar el repositorio. **L · DELTA FORCE ya tiene un contrato de utilidad** y no debe convertirse en segundo inventariador; C/Atlas inventarían, NEXO coordina y L evalúa el valor de continuidad.
+
+**Métricas y gates visuales:** capturas auténticas con HEAD/version y fecha, alt text, procedencia, licencia de publicación y distinción demo real vs ilustración propuesta; storyboard sintético trazado a evento, sin presentarlo como vídeo ejecutado; prueba física y carga GPU real `NO_DATA(not_verified_at_current_cut)`. La proporción 50/30/20 que propone el estudio es hipótesis de priorización, no medición.
+
 ## 1. Qué puede consultar el autor externo
 
 **Lecturas prioritarias y públicas:**
@@ -11,7 +19,8 @@
 3. [Parte 1/3: StrongDM + P1–P7](CONTINUIDAD-AGENTIC-SWARM-2026-11-26.md).
 4. [Doce dominios, MVP y skills propuestas](MVP-NATIVO-SKILLS-12-DOMINIOS-2026-11-26.md).
 5. [Capacidades MCP, evidencias y riesgos](AGENT-CAPABILITIES-MCP-2026-11-26.md).
-6. [Agenda](RESEARCH-AGENDA.md), [referencias](EXTERNAL-REFERENCES.md) y [manifiesto](MANIFEST-TEMPLATE.md).
+6. [Complemento visual y continuidad del ecosistema](PREPARACION-IDEAS26NOV-RONDA4-VISUAL-ECOSISTEMA-2026-11-26.md): S/T candidatos, L vigente, CineK independiente y fotografías verificables.
+7. [Agenda](RESEARCH-AGENDA.md), [referencias](EXTERNAL-REFERENCES.md) y [manifiesto](MANIFEST-TEMPLATE.md).
 
 Este contenido es **estudio saneado**, no acceso al repositorio privado. El autor no puede inferir nombres de hosts, permisos, CLI disponibles, HEAD privados, delegación de writers, rutas secretas o servicios operativos. **Si necesita una evidencia privada para decidir, formule una pregunta concreta al orquestador y declare `NO_DATA(private_ground_truth_not_observed_by_author)`.**
 
