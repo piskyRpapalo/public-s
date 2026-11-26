@@ -83,3 +83,19 @@ La [síntesis StrongDM/P1–P7](CONTINUIDAD-AGENTIC-SWARM-2026-11-26.md) añade 
 **[Guía de traspaso para redactar Parte 3/3](PREPARACION-IDEAS26NOV-PARTE3-2026-11-26.md)**. El estudio recoge los temas anunciados (MCP Tasks, evolución supervisada de prompts/skills, aislamiento de navegador y delta CAMALEÓN v0.3) y sus **puertas**, no una supuesta fuente recibida. Al corte se identificaron doce PR documentales, dos integradas y diez pendientes de juicio; ninguna PR equivale a skill funcionando E2E. Comprobación del esquema uniforme, incluido `deny_conditions`, y pruebas históricas de correlación RESULT/aceptación permanecen abiertas.
 
 **Condición previa a una propuesta implementable:** recibir Parte 3 íntegra, confrontar método/nombres/licencia con fuentes exactas, recuperar HEAD/owner y proponer mínima adaptación reversible; mantener separados `SOURCE`, `VERIFIED` e `INFERENCE`. No suplantar contrato vigente ni convertir los posibles N/O en procesos activos.
+
+## Preparación Ronda 4 · Recuperación visual y continuidad del ecosistema
+
+**Guía de referencia:** [Ideas26nov Ronda 4 · visión, vídeo, CineK y repositorios](PREPARACION-IDEAS26NOV-RONDA4-VISUAL-ECOSISTEMA-2026-11-26.md). GitHub reconsultado: 22 repositorios en la cuenta, uno archivado. No inferir funcionamiento de servicios por existencia de repos. Las Partes 1–3 de Ideas26nov tienen fuente; `NO_DATA(source_part4_U11_U14_not_received)` para el contenido de la próxima entrega. Los 12 dominios están documentados en el `main` del SWARM, no acreditados como 12 skills E2E.
+
+| Línea | Reutilizar | Problema y evidencia requerida | Pieza de la siguiente ronda |
+|---|---|---|---|
+| Captura visual auténtica | WEB/APP y H/I | Una imagen pulida puede representar una funcionalidad no desplegada; falta baseline de cobertura/alt text | Captura real + versión/HEAD + estado de función + alt text + auditoría D |
+| Comunicación visual | Productos públicos y medios de difusión existentes | `NO_DATA(actual_visual_coverage_and_engagement)`; no inventar audiencia | Paquete compartible de cuatro productos con permiso editorial |
+| CineK y evento→cine | Pipeline histórico CineK + flujo de recibos OpenWorld | Independencia contractual; `NO_DATA(current_renderer_or_event_compatibility)` | Fixture evento sintético→storyboard; verificar primero capacidad que ya existe |
+| Continuidad de repos | C/Atlas/roadmap, NEXO y L | L mide utilidad, no sustituye al dueño del inventario | Matriz 22 repos con owner/HEAD/última evidencia/consumer y juicio de utilidad de L |
+| Capacidad de agentes | F y propietarios de productos | Ratio propuesto 50/30/20 no medido | Medir tiempo y VU por familia antes de reasignar capacidad |
+| Gobierno de identidades | A–K/NEXO existentes, L propuesta | S/T son candidatas; existe riesgo de duplicar H/I/G y contratos CineK | Comparar capacidades por owner y pedir decisión soberana antes de crear fichas |
+| Seguridad y U11–U14 | D/J/K y Adenda A3 | Parte 3 alude a otra fuente todavía ausente | Solicitar contratos completos; `NO_DATA`, no activar ni asignar números inventados |
+
+**Puertas de salida:** R5 técnico permanece HOLD, R6 PLAN ONLY y R7 sin activar; ninguna captura demuestra agente LIVE sin testigo, ningún render histórico acredita motor actual, ni panel CineK ni convergencia se autorizan por esta agenda. Mantener `state/cause/source/observed_at/evidence_ref` equivalente en imagen, voz y máquina y usar lectores físicos en gate separado.
