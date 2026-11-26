@@ -77,3 +77,9 @@ La [síntesis StrongDM/P1–P7](CONTINUIDAD-AGENTIC-SWARM-2026-11-26.md) añade 
 **Gate documental de una ficha:** identidad y misión intactas; `EXISTING/REUSE/PROPOSED/HOLD/DISCARD` separados; cada skill con `trigger/inputs/outputs/existing_tool/required_authorization/deny_conditions/evidence/tests/metrics/rollback`; enlaces internos válidos; revisión ajena; ningún secreto ni grant por texto. **No** adoptar por anticipado agentes o deltas anunciados en partes de investigación aún no disponibles.
 
 **Tareas de contraste externo:** ejemplos reproducibles de actor single-writer sin proceso adicional; curación de skills bloqueadas y anti-drift; aislamiento de worktrees sin colisión; acceso default-deny con atribución verificable; verificación de lectores de pantalla sin depender solo de test unitario. Cada referencia necesita licencia/versión exacta antes de copiar o integrar.
+
+## Preparación Ideas26nov Parte 3/3 · reconciliación de doce dominios
+
+**[Guía de traspaso para redactar Parte 3/3](PREPARACION-IDEAS26NOV-PARTE3-2026-11-26.md)**. El estudio recoge los temas anunciados (MCP Tasks, evolución supervisada de prompts/skills, aislamiento de navegador y delta CAMALEÓN v0.3) y sus **puertas**, no una supuesta fuente recibida. Al corte se identificaron doce PR documentales, dos integradas y diez pendientes de juicio; ninguna PR equivale a skill funcionando E2E. Comprobación del esquema uniforme, incluido `deny_conditions`, y pruebas históricas de correlación RESULT/aceptación permanecen abiertas.
+
+**Condición previa a una propuesta implementable:** recibir Parte 3 íntegra, confrontar método/nombres/licencia con fuentes exactas, recuperar HEAD/owner y proponer mínima adaptación reversible; mantener separados `SOURCE`, `VERIFIED` e `INFERENCE`. No suplantar contrato vigente ni convertir los posibles N/O en procesos activos.
