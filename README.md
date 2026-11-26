@@ -2,11 +2,15 @@
 
 **Documento divulgativo y saneado.** No es un espejo del repositorio privado, no contiene credenciales, direcciones de hosts, sesiones, instrucciones operativas ni autorizaciones. La eliminación posterior de un repositorio público no elimina copias, forks o cachés.
 
+## Ideas26nov v0.3 · Parte 2 recibida
+
+Ya está disponible la **[síntesis de la Parte 2: N · VIGÍA, O · ADUANA, REGISTRO-DE-VIGÍA y deltas U0–U10](IDEAS26NOV-V03-PARTE2-N-O-U0-U10.md)**. Aporta contratos de exploración de fuentes, cuarentena, adopción con revisión y nuevas propuestas sobre MCP Tasks, evolución con gates y navegador aislado. **N/O permanecen PROPOSED**, sin ejecución, privilegios, grants o nueva autoridad. Se resuelve la ausencia de su definición documental; la ejecución E2E sigue NO_DATA. La Parte 3/3 del correo continúa pendiente y no se sustituye por conjeturas.
+
 ## PRE-R6 · doce dominios en evolución documental
 
 **[MVP nativo y skills de los doce dominios](MVP-NATIVO-SKILLS-12-DOMINIOS-2026-11-26.md)** · Contratos de propuesta para A–K y NEXO-09, con reutilización de herramientas existentes, pruebas adversariales, dueño, métricas, evidencia y reversión. Es una **ronda de investigación paralela**, no doce CLI activos ni doce servicios desplegados.
 
-**Estado de gobierno actualizado:** `R5_WORK_CYCLE=CLOSED_ADMINISTRATIVELY_BY_SOVEREIGN`; `R5_TECHNICAL_ACCEPTANCE=HOLD` (fallos y datos pendientes siguen bloqueados); `R6=PLAN_ONLY`; `R7=NOT_ACTIVATED`. El cierre administrativo no rebaja seguridad ni constituye firma criptográfica. N/O y las novedades de Ideas26nov Partes 2 y 3 siguen `NO_DATA(source_not_available)`.
+**Estado de gobierno actualizado:** `R5_WORK_CYCLE=CLOSED_ADMINISTRATIVELY_BY_SOVEREIGN`; `R5_TECHNICAL_ACCEPTANCE=HOLD` (fallos y datos pendientes siguen bloqueados); `R6=PLAN_ONLY`; `R7=NOT_ACTIVATED`. El cierre administrativo no rebaja seguridad ni constituye firma criptográfica. Los contratos documentales N/O y los deltas U0–U10 ya tienen fuente en Ideas26nov Parte 2; la Parte 3 y las pruebas de ejecución siguen `NO_DATA(source_not_available_or_e2e_unverified)`.
 
 ## Estudio prioritario: capacidades de agentes y mejora de MCP
 
