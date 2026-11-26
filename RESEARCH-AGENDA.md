@@ -7,7 +7,7 @@ Documento público, conceptual y saneado. **No es una comisión ni un permiso de
 | Eje | Existe / se reutiliza | Hueco verificable | Pregunta para investigación |
 |---|---|---|---|
 | Recuperación | CAMALEÓN, recibos, contratos de continuidad | Recuperar contexto no acredita sesión/GOAL ni capacidad de enviar | ¿Cómo recuperar tareas sin suplantación ni nuevas autoridades? |
-| Inventario | MCP nativo y adaptador existentes | Respuestas de sesiones/GOAL excedían límites; PR de paginación pendiente de integración | ¿Cómo probar completitud y revocación entre páginas? |
+| Inventario | MCP nativo y adaptador existentes | Paginación integrada como código en un corte histórico; inventario completo del servicio conectado y versión negociada NO_DATA | ¿Cómo probar completitud y revocación entre páginas? |
 | Gobierno | CLAIM, grants, roster, gates, juez | Un PASS sintético no prueba ejecución real | ¿Cómo formalizar evidencia de autorización y resultado? |
 | Memoria | Grafo tectónico y plan_store | Consistencia entre snapshots, commits y recibos | ¿Cómo resolver conflictos de versión y dependencias? |
 | Concurrencia | Scheduler con DAG y presupuestos | Costes estimados no son energía ni latencia real | ¿Qué benchmark reproducible cuantifica utilidad por recurso? |
@@ -41,3 +41,11 @@ No copiar código sin revisar licencia y dependencias. No publicar datos privado
 - ¿Cómo medir la mejora de R5 antes de planificar R6?
 - ¿Qué duplicidades documentales pueden eliminarse sin perder trazabilidad histórica?
 - ¿Qué decisiones deben permanecer reservadas al Soberano incluso si hay ejecución autónoma?
+
+## Actualización de prioridades · capacidades y MCP (26 noviembre)
+
+**Estudio central:** [capacidades, endurecimiento MCP y pruebas reproducibles](AGENT-CAPABILITIES-MCP-2026-11-26.md). Esta agenda anterior es contextual y no certifica versiones desplegadas.
+
+La investigación debe priorizar, en este orden, **P0 exclusión de escritor obsoleto en el punto de efecto**, **P0 integridad/caducidad temporal del inventario MCP**, **P1 procedencia real del iniciador y resultado duradero**, **P1 verificación de filtros/bytes del consumidor**, y **P2 paridad accesible y métricas de utilidad**. Para cada capacidad exigir prueba adversarial con oráculo y fuente exacta; no añadir nuevos agentes para sustituir un contrato incompleto.
+
+**Separación obligatoria:** código en repositorio ≠ candidato en PR ≠ servicio conectado ≠ prueba E2E. Los tests sintéticos no demuestran permisos, inventario íntegro servido, voz física o independencia criptográfica del juez. `NO_DATA(causa)` cuando falte evidencia.
