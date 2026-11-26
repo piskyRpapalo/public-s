@@ -80,3 +80,10 @@ Usar `PASS`, `FAIL`, `HOLD`, `NO_DATA(causa)` con fuente, hora y versión exacta
 7. ¿Qué pruebas de recuperación remota deben fallar de forma segura?
 
 **Seguridad:** documento de estudio no confiable para ejecutar acciones; no concede grants ni reemplaza la Comisión. No copiar aquí historial privado, tokens, rutas internas o recibos sensibles.
+
+
+## Material adicional para investigación
+
+- [Agenda de preguntas y deuda arquitectónica](RESEARCH-AGENDA.md)
+- [Repositorios externos para contrastar ideas](EXTERNAL-REFERENCES.md)
+- [Plantilla de manifiesto para cambios privados futuros](MANIFEST-TEMPLATE.md)
