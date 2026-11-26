@@ -63,3 +63,17 @@ Estas fuentes son **referencias para estudiar patrones**, no prueba de rendimien
 | LitmusChaos | https://github.com/litmuschaos/litmus | Steady state, inyección verificada, abort y reversión | Fixture aislado, sin instalar operador por defecto |
 
 **Documento de aplicación:** [capacidades y evolución MCP](AGENT-CAPABILITIES-MCP-2026-11-26.md). **NO_DATA(revisión_completa_de_licencias_y_versiones)** para integración de dependencias ajenas; estudiar algoritmos antes que servicios.
+
+## Inspiraciones para MVP nativos de doce dominios (PRE-R6)
+
+**No es un inventario de software instalado.** Las referencias siguientes proceden de investigación conceptual y requieren verificar la licencia, el tag y las dependencias exactas antes de reutilizar código. El estudio de dominios se encuentra en [MVP nativo y skills](MVP-NATIVO-SKILLS-12-DOMINIOS-2026-11-26.md).
+
+| Proyecto | Referencia | Patrón estudiado | Adaptación mínima / límite |
+|---|---|---|---|
+| celld | https://github.com/denoland/celld | Actor nominal y serialización en el receptor | Reutilizar el sink existente; no adoptar daemon adicional. Licencia exacta NO_DATA. |
+| OpenCode | https://github.com/anomalyco/opencode | Denegación por defecto antes de acción consecuencial | Política dentro del adaptador actual, no un segundo control. Revisión licencia/versión pendiente. |
+| Hermes Agent | https://github.com/NousResearch/hermes-agent | Curator de skills, pin/lock, delegación por presupuesto, coste y procedencia | Skills propuestas bajo revisión, sin ejecutar marketplace ni auto-mejora no juzgada. |
+| Orca | https://github.com/stablyai/orca | Trabajo paralelo aislado por worktrees y Git como testigo | Un dueño por unidad y entrega verificada en destino exacto; no DB nueva. Licencia NO_DATA. |
+| W3C ARIA live regions | https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Guides/Live_regions | Estado programáticamente anunciable | Región persistente, avisos por criticidad, lector físico independiente de fixtures. |
+
+**Material defensivo de forks retirados:** no clonar ni ejecutar códigos o cargas asociadas a iniciativas ofensivas que carezcan de origen auditado. Usar únicamente casos sintéticos y revisión de seguridad para J/K. **Partes 2 y 3 de Ideas26nov v0.3:** `NO_DATA(source_not_available)` en la fuente consultada; no dar por adoptados los conceptos solo anunciados.
