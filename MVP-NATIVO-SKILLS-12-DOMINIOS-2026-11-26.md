@@ -106,7 +106,7 @@ El `owner_role` es dueño **documental** del contrato de skill, no principal pri
 - [ARIA APG](https://github.com/w3c/aria-practices): regiones de estado persistentes, un único registro canónico y ensayos con lector.
 - **Forks de proyectos ofensivos retirados:** `DISCARD` de código; solo estudiar contramedidas con fixtures sintéticos, sin ejecutarlos.
 
-Fuente de inspiración: un documento de ideas **v0.3, Parte 1/3**, más [continuidad y StrongDM](CONTINUIDAD-AGENTIC-SWARM-2026-11-26.md), [agenda](RESEARCH-AGENDA.md) y [capacidades MCP](AGENT-CAPABILITIES-MCP-2026-11-26.md). **Las Partes 2/3 y 3/3 aún no estaban disponibles en la fuente consultada**, así que no se afirma haber adoptado sus contratos, agentes o prompts.
+Fuente de inspiración: un documento de ideas **v0.3, Parte 1/3**, más [continuidad y StrongDM](CONTINUIDAD-AGENTIC-SWARM-2026-11-26.md), [agenda](RESEARCH-AGENDA.md) y [capacidades MCP](AGENT-CAPABILITIES-MCP-2026-11-26.md). **Corte histórico al redactar esta ficha:** las Partes 2/3 y 3/3 aún no estaban disponibles, por lo que este documento base no afirmaba haber adoptado sus contratos, agentes ni prompts. **Actualización posterior:** la [Parte 2/3 ya fue recibida y sintetizada](IDEAS26NOV-V03-PARTE2-N-O-U0-U10.md); sus roles N/O y U0–U10 siguen PROPOSED. La [guía para la Parte 3/3](PREPARACION-IDEAS26NOV-PARTE3-2026-11-26.md) expone las dependencias sin inventar la fuente todavía ausente. Las 12 propuestas de dominio tienen PR documentales identificadas: dos verificadas en main y diez abiertas en un corte, sin nueva acreditación E2E.
 
 ## 7. Método de contribución
 
